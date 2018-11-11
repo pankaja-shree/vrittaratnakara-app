@@ -56,6 +56,7 @@ export default {
       fixed: false,
       items: [
         { icon: 'info', title: 'About us', to: '/aboutsf' },
+        { icon: 'people', title: 'Credits', to: '/credits' },
         { icon: 'contact_support', title: 'Contact us', to: '/contact' }
       ],
       miniVariant: false,

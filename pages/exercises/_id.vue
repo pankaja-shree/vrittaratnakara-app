@@ -93,18 +93,16 @@ export default {
     },
     check (ans) {
       let correct = this.exercise.ans
-      // let correctAudio = new Audio('correct.mp3')
-      const sound = new Audio('./correct.mp3')
-      let wrongAudio = new Audio('https://drive.google.com/file/d/1QZd7mSi6zc-_6fpe1uQgmz-VHX3w2HVK/view?usp=sharing')
-      // console.log(correct + ',' + this.chosen)
       if (this.chosen === correct) {
-        sound.play()
+        let audio = new Audio('https://s3.ap-south-1.amazonaws.com/quiz-sounds/correct.wav')
+        audio.play()
         this.success_alert = true
         this.fail_alert = false
         this.score = 1
         this.color = 'green'
       } else {
-        wrongAudio.play()
+        let audio = new Audio('https://s3.ap-south-1.amazonaws.com/quiz-sounds/wrong.wav')
+        audio.play()
         this.success_alert = false
         this.fail_alert = true
         this.score = 0
