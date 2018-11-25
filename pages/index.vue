@@ -9,7 +9,7 @@
         <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Vrittaratnakara</v-card-title>
         <v-card-text>
           <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.<v-btn color="accent" class="font-weight-bold text-capitalize" href="https://drive.google.com/file/d/1o1HzHNruyGN6TWmCkAjOaASHxdj-9IJB/view?usp=sharing" download>Download Word file of the website</v-btn></p>
-          <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.<v-btn color="accent" class="font-weight-bold text-capitalize" href="https://drive.google.com/file/d/1UgTWfUopAFDSFaQBC5ZHFb78080yPfcB/view?usp=sharing" download>Download PDF of the website</v-btn></p>
+          <p><v-btn color="accent" class="font-weight-bold text-capitalize" href="https://drive.google.com/file/d/1UgTWfUopAFDSFaQBC5ZHFb78080yPfcB/view?usp=sharing" download>Download PDF of the website</v-btn></p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>
