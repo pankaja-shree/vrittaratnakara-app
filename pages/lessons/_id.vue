@@ -21,7 +21,7 @@
           <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
 
           <div v-if='lesson.treeData'>
-            <tree type="tree" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
+            <tree type="tree" class="tree" zoomable :data="treeData" node-text="name" layoutType="euclidean" :radius=4 @clicked="onClick"> 
             </tree>
           </div>
 
@@ -56,6 +56,11 @@
 
   </div>
   </v-card>
+  <v-layout row>
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }"  :to=previous><b>Previous</b></v-btn>
+  <v-spacer></v-spacer>
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }" :to=next><b>Next</b></v-btn>
+  </v-layout>
 </v-container>
 </template>
 
@@ -89,7 +94,7 @@ export default {
     // console.log(this.id)
     this.lesson = this.$store.state.lessons.find(less => String(less.id) === this.id)
     this.treeData = this.lesson.treeData
-    console.log(this.treeData)
+    // console.log(this.treeData)
   },
   created () {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
@@ -109,6 +114,9 @@ export default {
     nexttab () {
       const active = parseInt(this.active)
       this.active = (active < this.lesson.types - 1 ? active + 1 : 0)
+    },
+    onClick (evt) {
+      window.open('/lessons/' + evt.data.url)
     }
   }
 }
