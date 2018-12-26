@@ -36,460 +36,598 @@ export const state = () => ({
         name: 'Classification of Chandas',
         children: [{
           name: 'वर्णछन्दः Varṇa Chandas',
+          url: '4.1',
           children: [{
             name: 'समम् Samam',
+            url: '4.1.i',
             children: [
               {
                 name: 'Uktā',
+                url: '4.1.i.I',
                 children: [
-                  { name: 'śrīḥ' }
+                  {
+                    name: 'śrīḥ',
+                    url: '4.1.i.I'
+                  }
                 ]
               },
               {
                 name: 'Atyuktā',
+                url: '4.1.i.II',
                 children: [
                   {
-                    name: 'Strī'
+                    name: 'Strī',
+                    url: '4.1.i.II'
                   }
                 ]
               },
               {
                 name: 'Madhyā',
+                url: '4.1.i.III',
                 children: [
                   {
-                    name: 'Nārī'
+                    name: 'Nārī',
+                    url: '4.1.i.III'
                   },
                   {
-                    name: 'Mṛgī'
+                    name: 'Mṛgī',
+                    url: '4.1.i.III'
                   }
                 ]
               },
               {
                 name: 'Pratiṣṭā',
+                url: '4.1.i.IV',
                 children: [
                   {
-                    name: 'Kanyā'
+                    name: 'Kanyā',
+                    url: '4.1.i.IV'
                   }
                 ]
               },
               {
                 name: 'Supratiṣṭā',
+                url: '4.1.i.V',
                 children: [
                   {
-                    name: 'Paṅkti'
+                    name: 'Paṅkti',
+                    url: '4.1.i.V'
                   }
                 ]
               },
               {
                 name: 'Gāyatrī',
+                url: '4.1.i.VI',
                 children: [
                   {
-                    name: 'Tanumadhyā'
+                    name: 'Tanumadhyā',
+                    url: '4.1.i.VI'
                   },
                   {
-                    name: 'śaśivadanā'
+                    name: 'śaśivadanā',
+                    url: '4.1.i.VI'
                   },
                   {
-                    name: 'Vidyullekhā'
+                    name: 'Vidyullekhā',
+                    url: '4.1.i.VI'
                   },
                   {
-                    name: 'Vasumatī'
+                    name: 'Vasumatī',
+                    url: '4.1.i.VI'
                   }
                 ]
               },
               {
                 name: 'Uṣṇik',
+                url: '4.1.i.VII',
                 children: [
                   {
-                    name: 'Madalekhā'
+                    name: 'Madalekhā',
+                    url: '4.1.i.VII'
                   }
                 ]
               },
               {
                 name: 'Anuṣṭup',
+                url: '4.1.i.VIII',
                 children: [
                   {
-                    name: 'Citrapadā'
+                    name: 'Citrapadā',
+                    url: '4.1.i.VIII'
                   },
                   {
-                    name: 'Vidyunmālā'
+                    name: 'Vidyunmālā',
+                    url: '4.1.i.VIII'
                   },
                   {
-                    name: 'Māṇavakam'
+                    name: 'Māṇavakam',
+                    url: '4.1.i.VIII'
                   },
                   {
-                    name: 'Hamsarutam'
+                    name: 'Hamsarutam',
+                    url: '4.1.i.VIII'
                   },
                   {
-                    name: 'Samānikā'
+                    name: 'Samānikā',
+                    url: '4.1.i.VIII'
                   },
                   {
-                    name: 'Pramāṇikā'
+                    name: 'Pramāṇikā',
+                    url: '4.1.i.VIII'
                   }
                 ]
               },
               {
                 name: 'Bṛhatī',
+                url: '4.1.i.IX',
                 children: [
                   {
-                    name: 'Halamukhī'
+                    name: 'Halamukhī',
+                    url: '4.1.i.IX'
                   },
                   {
-                    name: 'bhujagaśiśubhṛtā'
+                    name: 'bhujagaśiśubhṛtā',
+                    url: '4.1.i.IX'
                   }
                 ]
               },
               {
                 name: 'Paṅkti',
+                url: '4.1.i.X',
                 children: [
                   {
-                    name: 'śuddhavirāṭ'
+                    name: 'śuddhavirāṭ',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'paṇavanāmakam'
+                    name: 'paṇavanāmakam',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'mayūrasāriṇī'
+                    name: 'mayūrasāriṇī',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'Rukmavatī'
+                    name: 'Rukmavatī',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'Mattā'
+                    name: 'Mattā',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'Manoramā'
+                    name: 'Manoramā',
+                    url: '4.1.i.X'
                   },
                   {
-                    name: 'Upasthitā'
+                    name: 'Upasthitā',
+                    url: '4.1.i.X'
                   }
                 ]
               },
               {
                 name: 'Triṣṭup',
+                url: '4.1.i.XI',
                 children: [
                   {
-                    name: 'Indravajrā'
+                    name: 'Indravajrā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Upendravajrā'
+                    name: 'Upendravajrā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Upajāti'
+                    name: 'Upajāti',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Sumukhī'
+                    name: 'Sumukhī',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Dodhakavṛttam'
+                    name: 'Dodhakavṛttam',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'śālinī'
+                    name: 'śālinī',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Vātormī'
+                    name: 'Vātormī',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'śrīḥ'
+                    name: 'śrīḥ',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Bhramaravilasitā'
+                    name: 'Bhramaravilasitā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Rathoddhatā'
+                    name: 'Rathoddhatā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Svāgatā'
+                    name: 'Svāgatā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Vṛttā'
+                    name: 'Vṛttā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Bhadrikā'
+                    name: 'Bhadrikā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'śyenikā'
+                    name: 'śyenikā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Mouktikamālā'
+                    name: 'Mouktikamālā',
+                    url: '4.1.i.XI'
                   },
                   {
-                    name: 'Upasthitam'
+                    name: 'Upasthitam',
+                    url: '4.1.i.XI'
                   }
                 ]
               },
               {
                 name: 'Jagatī',
+                url: '4.1.i.XII',
                 children: [
                   {
-                    name: 'Candravartma'
+                    name: 'Candravartma',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'vaṃśasthaṃ'
+                    name: 'vaṃśasthaṃ',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'indravaṃśāḥ'
+                    name: 'indravaṃśāḥ',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Toṭakam'
+                    name: 'Toṭakam',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Drutavilambitam'
+                    name: 'Drutavilambitam',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Puṭaḥ'
+                    name: 'Puṭaḥ',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Pramuditavadanā'
+                    name: 'Pramuditavadanā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Kusumavicitrā'
+                    name: 'Kusumavicitrā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Jaloddhatagatiḥ'
+                    name: 'Jaloddhatagatiḥ',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'bhujaṅgaprayātaṃ'
+                    name: 'bhujaṅgaprayātaṃ',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'sragviṇī'
+                    name: 'sragviṇī',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'priyaṃvadā'
+                    name: 'priyaṃvadā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'maṇimālā'
+                    name: 'maṇimālā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Lalitā'
+                    name: 'Lalitā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Mouktikadāma'
+                    name: 'Mouktikadāma',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Vibhāvarī'
+                    name: 'Vibhāvarī',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'pramitākṣarā'
+                    name: 'pramitākṣarā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Ujjvalā'
+                    name: 'Ujjvalā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'vaiśvadevī'
+                    name: 'vaiśvadevī',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Jaladharamālā'
+                    name: 'Jaladharamālā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Navamālinī'
+                    name: 'Navamālinī',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Prabhā'
+                    name: 'Prabhā',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Mālatī'
+                    name: 'Mālatī',
+                    url: '4.1.i.XII'
                   },
                   {
-                    name: 'Tāmarasam'
+                    name: 'Tāmarasam',
+                    url: '4.1.i.XII'
                   }
                 ]
               },
               {
                 name: 'Atijagatī',
+                url: '4.1.i.XIII',
                 children: [
                   {
-                    name: 'kṣamā'
+                    name: 'kṣamā',
+                    url: '4.1.i.XIII'
                   },
                   {
-                    name: 'praharṣiṇī'
+                    name: 'praharṣiṇī',
+                    url: '4.1.i.XIII'
                   },
                   {
-                    name: 'Rucirā'
+                    name: 'Rucirā',
+                    url: '4.1.i.XIII'
                   },
                   {
-                    name: 'mattamayūram'
+                    name: 'mattamayūram',
+                    url: '4.1.i.XIII'
                   },
                   {
-                    name: 'mañjubhāṣiṇī'
+                    name: 'mañjubhāṣiṇī',
+                    url: '4.1.i.XIII'
                   },
                   {
-                    name: 'Candrikā'
+                    name: 'Candrikā',
+                    url: '4.1.i.XIII'
                   }
                 ]
               },
               {
                 name: 'śakkarī',
+                url: '4.1.i.XIV',
                 children: [
                   {
-                    name: 'Asambādhā'
+                    name: 'Asambādhā',
+                    url: '4.1.i.XIV'
                   },
                   {
-                    name: 'Aparājitā'
+                    name: 'Aparājitā',
+                    url: '4.1.i.XIV'
                   },
                   {
-                    name: 'Praharaṇakalikā'
+                    name: 'Praharaṇakalikā',
+                    url: '4.1.i.XIV'
                   },
                   {
-                    name: 'Vasantatilakā'
+                    name: 'Vasantatilakā',
+                    url: '4.1.i.XIV'
                   }
                 ]
               },
               {
                 name: 'atiśakkarī',
+                url: '4.1.i.XV',
                 children: [
                   {
-                    name: 'śaśikalā'
+                    name: 'śaśikalā',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Srak'
+                    name: 'Srak',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Maṇiguṇanikara'
+                    name: 'Maṇiguṇanikara',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Kāmakrīḍā'
+                    name: 'Kāmakrīḍā',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Mālinī'
+                    name: 'Mālinī',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Prabhadrakam'
+                    name: 'Prabhadrakam',
+                    url: '4.1.i.XV'
                   },
                   {
-                    name: 'Elā'
+                    name: 'Elā',
+                    url: '4.1.i.XV'
                   }
                 ]
               },
               {
                 name: 'aṣṭiḥ',
+                url: '4.1.i.XVI',
                 children: [
                   {
-                    name: 'ṛṣabhagajavilasitam'
+                    name: 'ṛṣabhagajavilasitam',
+                    url: '4.1.i.XVI'
                   },
                   {
-                    name: 'vāṇinī'
+                    name: 'vāṇinī',
+                    url: '4.1.i.XVI'
                   },
                   {
-                    name: 'pañcacāmaraṃ'
+                    name: 'pañcacāmaraṃ',
+                    url: '4.1.i.XVI'
                   }
                 ]
               },
               {
                 name: 'atyaṣṭiḥ',
+                url: '4.1.i.XVII',
                 children: [
                   {
-                    name: 'śikhariṇī'
+                    name: 'śikhariṇī',
+                    url: '4.1.i.XVII'
                   },
                   {
-                    name: 'pṛthvī'
+                    name: 'pṛthvī',
+                    url: '4.1.i.XVII'
                   },
                   {
-                    name: 'vaṃśapatrapatitaṃ'
+                    name: 'vaṃśapatrapatitaṃ',
+                    url: '4.1.i.XVII'
                   },
                   {
-                    name: 'hariṇī'
+                    name: 'hariṇī',
+                    url: '4.1.i.XVII'
                   },
                   {
-                    name: 'mandākrāntā'
+                    name: 'mandākrāntā',
+                    url: '4.1.i.XVII'
                   },
                   {
-                    name: 'Narkuṭakam'
+                    name: 'Narkuṭakam',
+                    url: '4.1.i.XVII'
                   }
                 ]
               },
               {
                 name: 'dhṛtiḥ',
+                url: '4.1.i.XVIII',
                 children: [
                   {
-                    name: 'kusumitalatāvellitā'
+                    name: 'kusumitalatāvellitā',
+                    url: '4.1.i.XVIII'
                   }
                 ]
               },
               {
                 name: 'atidhṛtiḥ',
+                url: '4.1.i.XIX',
                 children: [
                   {
-                    name: 'Medhavisphūrjitā'
+                    name: 'Medhavisphūrjitā',
+                    url: '4.1.i.XIX'
                   },
                   {
-                    name: 'śārdūlavikrīḍitam'
+                    name: 'śārdūlavikrīḍitam',
+                    url: '4.1.i.XIX'
                   }
                 ]
               },
               {
                 name: 'kṛtiḥ',
+                url: '4.1.i.XX',
                 children: [
                   {
-                    name: 'Suvadanā'
+                    name: 'Suvadanā',
+                    url: '4.1.i.XX'
                   },
                   {
-                    name: 'vṛttaṃ'
+                    name: 'vṛttaṃ',
+                    url: '4.1.i.XX'
                   }
                 ]
               },
               {
                 name: 'Prakṛtiḥ',
+                url: '4.1.i.XXI',
                 children: [
                   {
-                    name: 'Sragdharā'
+                    name: 'Sragdharā',
+                    url: '4.1.i.XXI'
                   }
                 ]
               },
               {
                 name: 'ākṛtiḥ',
+                url: '4.1.i.XXII',
                 children: [
                   {
-                    name: 'Bhadrakam'
+                    name: 'Bhadrakam',
+                    url: '4.1.i.XXII'
                   }
                 ]
               },
               {
                 name: 'vikṛtiḥ',
+                url: '4.1.i.XXIII',
                 children: [
                   {
-                    name: 'Aśvalalitam'
+                    name: 'Aśvalalitam',
+                    url: '4.1.i.XXIII'
                   }
                 ]
               },
               {
                 name: 'saṃkṛtiḥ',
+                url: '4.1.i.XXIV',
                 children: [
                   {
-                    name: 'Tanvī'
+                    name: 'Tanvī',
+                    url: '4.1.i.XXIV'
                   }
                 ]
               },
               {
                 name: 'atikṛtiḥ',
+                url: '4.1.i.XXV',
                 children: [
                   {
-                    name: 'Krauñcapadā'
+                    name: 'Krauñcapadā',
+                    url: '4.1.i.XXV'
                   }
                 ]
               },
               {
                 name: 'utkṛtiḥ',
+                url: '4.1.i.XXVI',
                 children: [
                   {
-                    name: 'bhujaṅgavilasitam'
+                    name: 'bhujaṅgavilasitam',
+                    url: '4.1.i.XXVI'
                   },
                   {
-                    name: 'Apavāha'
+                    name: 'Apavāha',
+                    url: '4.1.i.XXVI'
                   }
                 ]
               },
               {
                 name: 'Daṇḍaka',
+                url: '4.1.i.XXVII',
                 children: [
                   {
-                    name: 'caṇḍavṛṣṭiprapātaḥ'
+                    name: 'caṇḍavṛṣṭiprapātaḥ',
+                    url: '4.1.i.XXVII'
                   },
                   {
-                    name: 'arṇa-arṇava-vyāla-jīmūta-līlākara-uddāma-śaṅkhā-etc'
+                    name: 'arṇa-arṇava-vyāla-jīmūta-līlākara-uddāma-śaṅkhā-etc',
+                    url: '4.1.i.XXVII'
                   },
                   {
-                    name: 'pracitakasamabhidhaḥ'
+                    name: 'pracitakasamabhidhaḥ',
+                    url: '4.1.i.XXVII'
                   }
                 ]
               }
@@ -497,104 +635,136 @@ export const state = () => ({
           },
           {
             name: 'अर्धसमम् Ardhasamam',
+            url: '4.1.ii.',
             children: [
               {
-                name: 'Upacitram'
+                name: 'Upacitram',
+                url: '4.1.ii.I'
               },
               {
-                name: 'drutamadhyā'
+                name: 'drutamadhyā',
+                url: '4.1.ii.II'
               },
               {
-                name: 'vegavatī'
+                name: 'vegavatī',
+                url: '4.1.ii.III'
               },
               {
-                name: 'bhadravirāṭ'
+                name: 'bhadravirāṭ',
+                url: '4.1.ii.IV'
               },
               {
-                name: 'ketumatī'
+                name: 'ketumatī',
+                url: '4.1.ii.V'
               },
               {
-                name: 'ākhyānakī'
+                name: 'ākhyānakī',
+                url: '4.1.ii.VI'
               },
               {
-                name: 'viparītākhyānakī'
+                name: 'viparītākhyānakī',
+                url: '4.1.ii.VII'
               },
               {
-                name: 'hariṇaplutā'
+                name: 'hariṇaplutā',
+                url: '4.1.ii.VIII'
               },
               {
-                name: 'aparavaktram'
+                name: 'aparavaktram',
+                url: '4.1.ii.IX'
               },
               {
-                name: 'puṣpitāgrā'
+                name: 'puṣpitāgrā',
+                url: '4.1.ii.X'
               },
               {
-                name: 'yavamatī'
+                name: 'yavamatī',
+                url: '4.1.ii.XI'
               }
             ]
           },
           {
             name: 'विषमम् Viṣamam',
+            url: '4.1.iii',
             children: [
               {
-                name: 'padacaturūrdhvam'
+                name: 'padacaturūrdhvam',
+                url: '4.1.iii.I'
               },
               {
-                name: 'āpīḍam'
+                name: 'āpīḍam',
+                url: '4.1.iii.II'
               },
               {
-                name: 'kalikā'
+                name: 'kalikā',
+                url: '4.1.iii.III'
               },
               {
-                name: 'lavalī'
+                name: 'lavalī',
+                url: '4.1.iii.IV'
               },
               {
-                name: 'amṛtadhārā'
+                name: 'amṛtadhārā',
+                url: '4.1.iii.V'
               },
               {
-                name: 'udgatā'
+                name: 'udgatā',
+                url: '4.1.iii.VI'
               },
               {
-                name: 'saurabhakam'
+                name: 'saurabhakam',
+                url: '4.1.iii.VII'
               },
               {
-                name: 'Lalitam'
+                name: 'Lalitam',
+                url: '4.1.iii.VIII'
               },
               {
-                name: 'upasthitapracupitam'
+                name: 'upasthitapracupitam',
+                url: '4.1.iii.IX'
               },
               {
-                name: 'vardhamānam'
+                name: 'vardhamānam',
+                url: '4.1.iii.X'
               },
               {
-                name: 'śuddhavirāḍārṣabham'
+                name: 'śuddhavirāḍārṣabham',
+                url: '4.1.iii.XI'
               },
               {
-                name: 'Gāthā'
+                name: 'Gāthā',
+                url: '4.1.iv'
               }
             ]
           }
           ]
         }, {
           name: 'मात्राछन्दः Mātrā Chandas',
+          url: '4.2',
           children: [
             {
               name: 'आर्या āryā',
+              url: '4.2.i',
               children: [
                 {
-                  name: 'Pathyā'
+                  name: 'Pathyā',
+                  url: '4.2.i.I'
                 },
                 {
-                  name: 'Vipulā'
+                  name: 'Vipulā',
+                  url: '4.2.i.II'
                 },
                 {
                   name: 'Capalā',
+                  url: '4.2.i.III',
                   children: [
                     {
-                      name: 'Mukhacapalā'
+                      name: 'Mukhacapalā',
+                      url: '4.2.i.III'
                     },
                     {
-                      name: 'Jaghanacapalā'
+                      name: 'Jaghanacapalā',
+                      url: '4.2.i.III'
                     }
                   ]
                 }
@@ -602,111 +772,145 @@ export const state = () => ({
             },
             {
               name: 'Gīti',
+              url: '4.2.ii',
               children: [
                 {
-                  name: 'Upagīti'
+                  name: 'Upagīti',
+                  url: '4.2.ii.I'
                 },
                 {
-                  name: 'Udgīti'
+                  name: 'Udgīti',
+                  url: '4.2.ii.II'
                 },
                 {
-                  name: 'āryāgīti'
+                  name: 'āryāgīti',
+                  url: '4.2.ii.III'
                 }
               ]
             },
             {
               name: 'वैतालीयः Vaitālīya',
+              url: '4.2.iii',
               children: [
                 {
-                  name: 'Aupacchandasikam'
+                  name: 'Aupacchandasikam',
+                  url: '4.2.iii.I'
                 },
                 {
-                  name: 'āpātalika'
+                  name: 'āpātalika',
+                  url: '4.2.iii.II'
                 },
                 {
-                  name: 'Dakṣiṇāntikā'
+                  name: 'Dakṣiṇāntikā',
+                  url: '4.2.iii.III'
                 },
                 {
-                  name: 'Udicyavṛtti'
+                  name: 'Udicyavṛtti',
+                  url: '4.2.iii.IV'
                 },
                 {
-                  name: 'Prācyavṛtti'
+                  name: 'Prācyavṛtti',
+                  url: '4.2.iii.V'
                 },
                 {
-                  name: 'Pravṛttakam'
+                  name: 'Pravṛttakam',
+                  url: '4.2.iii.VI'
                 },
                 {
-                  name: 'Aparāntikā'
+                  name: 'Aparāntikā',
+                  url: '4.2.iii.VII'
                 },
                 {
-                  name: 'Cāruhāsinī'
+                  name: 'Cāruhāsinī',
+                  url: '4.2.iii.VIII'
                 }
               ]
             },
             {
               name: 'वक्त्रम् Vaktram',
+              url: '4.2.iv',
               children: [
                 {
-                  name: 'Pathyāvaktram'
+                  name: 'Pathyāvaktram',
+                  url: '4.2.iv.I'
                 },
                 {
-                  name: 'Viparītapathyāvaktram'
+                  name: 'Viparītapathyāvaktram',
+                  url: '4.2.iv.II'
                 },
                 {
-                  name: 'capalāvaktram'
+                  name: 'capalāvaktram',
+                  url: '4.2.iv.III'
                 },
                 {
-                  name: 'yugmavipulā'
+                  name: 'yugmavipulā',
+                  url: '4.2.iv.IV'
                 },
                 {
-                  name: 'bhavipulā'
+                  name: 'bhavipulā',
+                  url: '4.2.iv.V'
                 },
                 {
-                  name: 'ravipulā'
+                  name: 'ravipulā',
+                  url: '4.2.iv.VI'
                 },
                 {
-                  name: 'navipulā'
+                  name: 'navipulā',
+                  url: '4.2.iv.VII'
                 },
                 {
-                  name: 'tavipulā'
+                  name: 'tavipulā',
+                  url: '4.2.iv.VIII'
                 }
               ]
             },
             {
               name: 'mātrāsamavṛttam',
+              url: '4.2.v',
               children: [
                 {
-                  name: 'acaladhṛtivṛttam'
+                  name: 'acaladhṛtivṛttam',
+                  url: '4.2.v.I'
                 },
                 {
-                  name: 'mātrāsamakam'
+                  name: 'mātrāsamakam',
+                  url: '4.2.v.II'
                 },
                 {
-                  name: 'viślokavṛttam'
+                  name: 'viślokavṛttam',
+                  url: '4.2.v.III'
                 },
                 {
-                  name: 'vānavāsikāvṛttam'
+                  name: 'vānavāsikāvṛttam',
+                  url: '4.2.v.IV'
                 },
                 {
-                  name: 'citrāvṛttam'
+                  name: 'citrāvṛttam',
+                  url: '4.2.v.V'
                 },
                 {
-                  name: 'upacitrāvṛttam'
+                  name: 'upacitrāvṛttam',
+                  url: '4.2.v.VI'
                 },
                 {
-                  name: 'pādākulakavṛttam'
+                  name: 'pādākulakavṛttam',
+                  url: '4.2.v.VII'
                 },
                 {
-                  name: 'śikhāvṛttam'
+                  name: 'śikhāvṛttam',
+                  url: '4.2.vi'
                 },
                 {
-                  name: 'khañjāvṛttam'
+                  name: 'khañjāvṛttam',
+                  url: '4.2.vii'
                 },
                 {
-                  name: 'anaṅgakrīḍāvṛttam'
+                  name: 'anaṅgakrīḍāvṛttam',
+                  url: '4.2.viii'
                 },
                 {
-                  name: 'rucirāvṛttam'
+                  name: 'rucirāvṛttam',
+                  url: '4.2.ix'
                 }
               ]
             }
